@@ -27,6 +27,11 @@ public class SearchNilai13 {
   
         if (!ditemukan) {
             System.out.println("Nilai" + key + " tidak ditemukan.");
+            System.out.print("Berikut adalah daftar nilai yang tersedia: ");
+            for (int i = 0; i < nilai.length; i++) {
+                System.out.print(nilai[i] + " ");
+           }
+           System.out.println();
         }
     }
 }
